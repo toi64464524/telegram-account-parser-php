@@ -1,1 +1,2 @@
-# tg账户转换
+# 安装
+composer require gogo188166/telegram-account-parser
