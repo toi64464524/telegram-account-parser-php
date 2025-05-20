@@ -1,0 +1,22 @@
+{
+    "name": "gogo188166/telegram-account-parser",
+    "description": "PHP library for parsing and generating Telegram tdata and session files",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Telegram Parser Team"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "suggest": {
+        "python-3.x": "Required for backend processing"
+    },
+    "autoload": {
+        "psr-4": {
+            "Telegram\\Account\\Parser\\": "src/"
+        }
+    }
+}
